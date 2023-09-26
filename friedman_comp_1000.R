@@ -76,5 +76,5 @@ result_1<-mclapply(1:50,doRegression,L=1,tau0 =0.1,tauz = 1,optimizer=optimizer,
 result_2<-mclapply(1:50,doRegression,L=2,tau0 =0.1,tauz = 1,optimizer=optimizer,mc.cores=1,mc.preschedule=FALSE)
 stopCluster(cl)
 
-save.image(paste0("friedman_1000_",optimizer,".Rdata"))
+# save.image(paste0(ra"friedman_1000_",optimizer,".Rdata"))
 
