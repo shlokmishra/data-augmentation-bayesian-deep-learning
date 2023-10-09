@@ -16,7 +16,7 @@ registerDoParallel(cl)
 
 J_seq=c(2,5,10)
 
-n=1000
+n=100
 p_seq=c(10,50,100,1000)
 
 data_type="friedman"

@@ -48,8 +48,10 @@ X <- data$X
 Y <- data$Y
 
 # sgd for few epocs
-for(epoch in 1:100){
-  for(i in 1:(nrow(X)/batch_size)){
+for(epoch in 1:100)
+  {
+  for(i in 1:(nrow(X)/batch_size))
+    {
     results <- sgd_step(X, Y, W, b, learning_rate)
     W <- results$W
     b <- results$b
